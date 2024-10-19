@@ -1,4 +1,5 @@
 site_name: Alex.Wang's Blog
 nav:
     - Home: index.md
+    - To Do List: to-do-list.md
 theme: readthedocs
