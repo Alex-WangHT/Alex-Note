@@ -1,0 +1,4 @@
+site_name: Alex.Wang's Blog
+nav:
+    - Home: index.md
+theme: readthedocs
