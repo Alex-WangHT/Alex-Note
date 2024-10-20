@@ -1,5 +1,41 @@
+#[Info]
 site_name: Alex.Wang's Blog
+site_author: Alex.Wang
+
+#[UI]
+theme: 
+    name: material
+    language: zh
+    hljs_languages:
+        - yaml
+    palette:
+        - media: "(prefers-color-scheme: light)"
+          scheme: default
+          primary: deep purple
+          accent: indigo
+          toggle:
+            icon: material/toggle-switch
+            name: 切换至夜间模式
+        - media: "(prefers-color-scheme: dark)"
+          scheme: slate
+          primary: black 
+          accent: indigo
+          toggle:
+            icon: material/toggle-switch-off-outline
+            name: 切换至日间模式
+        
+
+#[Navigation]
 nav:
-    - Home: index.md
-    - To Do List: to-do-list.md
-theme: readthedocs
+    - '主页': "index.md"
+    - '嵌入式':
+        - 'STM32': "嵌入式单片机/STM32.md"
+        - 'RTOS学习-[RT-Thread]': "嵌入式单片机/RTOS-RT-Thread.md"
+        - 'RTOS学习-[从0开始的RTOS]': "嵌入式单片机/RTOS-DIY.md" 
+    - '电子电路': 
+        - '晶体管放大电路(BJT)': "晶体管放大电路/Transmitter-BJT.md"
+        - '晶体管放大电路(FET)': "晶体管放大电路/Transmitter-FET.md"
+        - '滤波器设计与实现': 
+            - 'LC滤波器设计与实现': "滤波器设计与实现/LC-Filter.md"
+    - '微波天线':
+        - '电磁场与电磁波': "电磁场与电磁波/Electromagnetics.md"
