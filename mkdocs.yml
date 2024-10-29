@@ -41,6 +41,15 @@ plugins:
 nav:
     - Blog:
         - blog/index.md
+    - "控制理论":
+        - '现代控制工程':
+            - '参考书目': "control/bibliography.md"
+            - '数学基础':
+                - 'Laplace变换与z变换': "control/transform.md"
+                - '矩阵基础': "control/martix.md"
+            - '控制系统的数学模型':
+                - '传递函数模型': "control/transfer.md"
+                - '状态空间模型': "control/state-variable.md"
     - '嵌入式':
         - 'STM32': "embedded/STM32.md"
         - 'RTOS学习-[RT-Thread]': "embedded/RTOS-RT-Thread.md"
@@ -54,3 +63,7 @@ nav:
     - '微波天线':
         - '电磁场与电磁波': "microwave_antenna/Electromagnetics.md"
     - '关于': "about/about.md"
+
+markdown_extensions:
+    - attr_list
+    - md_in_html
