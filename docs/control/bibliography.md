@@ -1,12 +1,3 @@
-# 内容对应参考书目的章节部分
-|  博客内容   | 对应参考书目章节  |
-| :----: | :----: |
-| Laplace变换与z变换 |[1]:Chapter 9,Chapter 10;[5]:Chapter 2|
-|矩阵基础|[2]|
-|控制系统介绍|[3]:Chapter 1;[4]:Chapter 1;[5]:Chapter 1|
-|传递函数模型|[3]:Chapter 2;[4]:Chapter 2;[5]:Chapter 3,Chapter 4|
-|状态空间模型|[3]:Chapter 2;[4]:Chapter 3;[5]:Chapter 9|
-
 # 参考书目
 ### [1]  Signal and Systems,Second Edition:Alan S Oppenheim
 
