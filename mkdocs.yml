@@ -31,6 +31,20 @@ theme:
     font:
         text: Roboto
         code: Roboto Mono
+    icon:
+        admonition:
+        note: octicons/tag-16
+        abstract: octicons/checklist-16
+        info: octicons/info-16
+        tip: octicons/squirrel-16
+        success: octicons/check-16
+        question: octicons/question-16
+        warning: octicons/alert-16
+        failure: octicons/x-circle-16
+        danger: octicons/zap-16
+        bug: octicons/bug-16
+        example: octicons/beaker-16
+        quote: octicons/quote-16
 
 
 #[Plugins]
@@ -43,13 +57,15 @@ nav:
         - blog/index.md
     - "控制理论":
         - '现代控制工程':
-            - '参考书目': "control/bibliography.md"
+            - '参考书目': "control/modern_control/bibliography.md"
             - '数学基础':
-                - 'Laplace变换与z变换': "control/transform.md"
-                - '矩阵基础': "control/martix.md"
+                - 'Laplace变换与z变换': "control/modern_control/transform.md"
+                - '矩阵基础': "control/modern_control/martix.md"
             - '控制系统的数学模型':
-                - '传递函数模型': "control/transfer.md"
-                - '状态空间模型': "control/state-variable.md"
+                - '传递函数模型': "control/modern_control/transfer.md"
+                - '状态空间模型': "control/modern_control/state-variable.md"
+        - '线性系统理论':
+            - '参考书目': "control/linear_system/bibliography.md"
     - '嵌入式':
         - 'STM32': "embedded/STM32.md"
         - 'RTOS学习-[RT-Thread]': "embedded/RTOS-RT-Thread.md"
@@ -67,9 +83,16 @@ nav:
 markdown_extensions:
     - attr_list
     - md_in_html
+    - admonition
+    - pymdownx.details
+    - pymdownx.superfences
     - pymdownx.arithmatex:
         generic: true
 
 extra_javascript:
-    - https://polyfill.io/v3/polyfill.min.js?features=es6
-    - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+
+extra_css:
+  - https://unpkg.com/katex@0/dist/katex.min.css
