@@ -1,4 +1,5 @@
 # 参考书目
+
 ### [1]  Signal and Systems,Second Edition:Alan S Oppenheim
 
 <figure markdown="span">
@@ -11,7 +12,7 @@
     ![2](image/[2]-pic.png){width="500"}
 </figure>
 
-### [3]  Modern Control Engineering,Fifth Edition:Katsuhiko Ogata 
+### [3]  Modern Control Engineering,Fifth Edition:Katsuhiko Ogata
 
 <figure markdown="span">
     ![3](image/[3]-pic.png){width="500"}
